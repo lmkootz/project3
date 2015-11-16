@@ -4,10 +4,10 @@ html body {
 }
 
 body {
-  font-family: 'helvetica';
-  background: yellow;
+  font-family: 'Gill sans', 'helvetica', sans-serif;
+  background: url("http://lmkootz.github.io/project2/img/honeymobilebg.png");
 }
-/* Global Header Navigation */
+/* Global Header things */
 
 header .logo {
   border: solid 2px black;
@@ -16,10 +16,19 @@ header .logo {
   margin: 0 auto;
 }
 
+.display-menu {
+  background-color: rgb(239, 231, 216);
+}
+
+.display-menu ul a {
+  color: black;
+}
+
 header nav ul {
   display: block;
   text-align: center;
   padding: 25px 40px;
+  background: ;
 }
 
 header nav li {
@@ -39,28 +48,70 @@ header nav li a {
 header .menu-button {
   float: right;
   position: absolute;
-  top: -50px;
-  right: -50px;
+  top: -70px;
+  right: -70px;
   width: 200px;
   height: 200px;
   background: url(http://lmkootz.github.io/project2/img/hamburger_close.png) no-repeat center;
   background-size: 10% 10%;
 }
-/* How to Get rid of the Hamburger! */
+/* How to Get rid of the Hamburger and make the desktop layout! */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   header .menu-button {
     display: none;
+  }
+  header {
+    background-color: rgb(247, 210, 14);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  .buy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .buy_section {
+    padding:80px;
+  }
+  .content {
+    background: rgb(239, 231, 216);
+    display: inline-block;
+    width: 250px;
+    margin: 0 auto;
+    top: 150px;
+    position: relative;
+    top: 210px;
+    z-index: 2;
+    height: 100%;
+  }
+  .content p {
+    padding: 10px;
+    position: relative;
+  }
+  header .logo {
+    display: block;
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("http://lmkootz.github.io/project2/img/logo.png");
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
   }
 }
 /* My mobile Layout!! */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .wrapper {
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: pink;
+    background-color: rgb(247, 210, 14);
     height: 100px;
   }
   .clearfix {
@@ -77,14 +128,21 @@ header .menu-button {
     float: left;
     margin: 5px;
     margin-top: 30px;
-    background: url("https://static.wixstatic.com/media/c763c1_ea2724919a7848a9a442bd46d0f974f3.png/v1/fill/w_70,h_64,al_c,usm_0.50_1.20_0.00/c763c1_ea2724919a7848a9a442bd46d0f974f3.png");
+    background: url("http://lmkootz.github.io/project2/img/logo.png");
     background-size: cover;
   }
   .content {
     position: relative;
     top: 100px;
-    background-color: aqua;
+    background-color: rgb(239, 231, 216);
     display: block;
+  }
+  .content p {
+    padding: 15px;
+  }
+  .buy a {
+    color: white;
+    text-decoration: none;
   }
   .show-menu-button {
     display: inline;
@@ -93,8 +151,13 @@ header .menu-button {
 /* cart Toggle */
 
 .buy {
-  background-color: pink;
-  padding: 10px;
+  background-color: rgb(44, 44, 43);
+  padding: 15px;
+  padding-left: 5px;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 /* Hamburger Menu */
 
@@ -106,7 +169,7 @@ header .menu-button {
   top: 0;
   right: 0;
   left: 0;
-  background-color: gold;
+  background-color: rgb(247, 210, 14);
   z-index: 999;
 }
 
@@ -139,8 +202,8 @@ nav a.active {
 
 .overlay .close-button {
   position: absolute;
-  top: -50px;
-  right: -50px;
+  top: -70px;
+  right: -70px;
   float: right;
   background: url(http://lmkootz.github.io/project2/img/closebutton.png) no-repeat center;
   background-size: 10% 10%;
