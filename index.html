@@ -4,13 +4,15 @@
 		<title>Follow the Honey</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="web.css">
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
     <script type="text/javascript">
     $('.menu-button').on('click', function() {
   $(this).removeClass('show-menu-button');
   $('.overlay').slideDown('slow');
 });
 
-$('.close-button').on('click', function() {
+  $('.close-button').on('click', function() {
   $('.overlay').slideUp('fast');
   $('.menu-button').addClass('show-menu-button');
 });
