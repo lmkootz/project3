@@ -87,11 +87,24 @@ header {
 .buy {
   width:100%;
   background-color:pink;
+  padding:5px;
 
+}
+
+.buylink {
+  padding:5px;
+  text-align:right;
+}
+
+.item {
+  border-bottom:1px solid black;
 }
 
 #about {
   background-color:yellow;
+  margin-top:10px;
+  padding:5px;
+  
 }
 /* How to Get rid of the Hamburger */
 
