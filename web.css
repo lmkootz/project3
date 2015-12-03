@@ -62,7 +62,7 @@ header .menu-button {
   right: -70px;
   width: 200px;
   height: 200px;
-  background: url(http://lmkootz.github.io/project2/img/hamburger_close.png) no-repeat center;
+  background: url(img/hamburger_close.png) no-repeat center;
   background-size: 10% 10%;
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .content {
-  background-color: green;
+  background-color: rgb(225, 211, 179);
   width: 95%;
   Margin: 0 auto;
   position: inherit;
@@ -279,7 +279,7 @@ nav a.active {
   top: -70px;
   right: -70px;
   float: right;
-  background: url(http://lmkootz.github.io/project2/img/closebutton.png) no-repeat center;
+  background: url(img/closebutton.png) no-repeat center;
   background-size: 10% 10%;
   width: 200px;
   height: 200px;
