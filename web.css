@@ -106,13 +106,20 @@ header {
 }
 
 .buylink {
-  padding: 5px;
+  padding: 6px;
   text-align: right;
   color:rgb(225, 211, 179);
 }
 
+.buylink a{
+  padding: 5px;
+  text-align: right;
+  color:rgb(225, 211, 179);
+  text-decoration:none;
+}
+
 .item {
-  border-bottom: 1px solid rgb(225, 211, 179);
+  border-bottom: 1px solid rgb(236, 31, 39);
 }
 
 #about {
@@ -200,11 +207,20 @@ header {
     background: url("http://lmkootz.github.io/project2/img/logo.png");
     background-size: cover;
   }
+  
+  header h1 {
+    padding:14px;
+  }
+  
+  header{
+    position:static;}
+  
+  
   .show-menu-button {
     display: inline;
   }
   .content {
-    padding: 10px;
+    padding: ;
   }
   .gallerywrap {
     margin-top: 10px;
@@ -212,7 +228,6 @@ header {
   .product {
     width: 100%;
     float: left;
-    padding: 5px;
   }
   .product img {
     width: 100%;
