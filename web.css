@@ -161,7 +161,7 @@ header {
     overflow: auto;
   }
   .content {
-    background-color: green;
+    background-color: rgb(225, 211, 179);
     width: 95%;
     Margin: 0 auto;
     position: inherit;
