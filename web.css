@@ -14,7 +14,7 @@ h1 {
 }
 
 body {
-  font-family: 'Gill sans', 'helvetica', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: url("http://lmkootz.github.io/project2/img/honeymobilebg.png");
 }
 /* Global Header things */
@@ -46,6 +46,7 @@ header nav li {
   padding: 0 20px;
   font-size: 16px;
   letter-spacing: 2.5px;
+  line-height: 30px;
 }
 
 header nav li a {
@@ -74,7 +75,7 @@ header {
 .content {
   background-color: rgb(225, 211, 179);
   width: 95%;
-  Margin: 0 auto;
+  margin: 0 auto;
   position: inherit;
   height: 100%;
 }
@@ -85,8 +86,8 @@ header {
 
 .footer {
   background-color: pink;
-  width: 95%;
-  Margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
   position: inherit;
   height: 100%;
   padding: 5px;
@@ -98,10 +99,11 @@ header {
   padding: 5px;
   color:white;
   text-transform:uppercase;
-  font-size:1.2em;
+  font-size:90%;
   padding-left:10px;
   padding-right:10px;
   margin-top:0;
+  height:20%;
   
 }
 
@@ -124,21 +126,36 @@ header {
 
 #about {
   background-color: rgb(247, 247, 247);
-  margin-top: 10px;
-  padding: 5px;
+  padding: 10px;
+  width:100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
-#follow {
+img.follow {
+  display:block;
   margin:0 auto;
 }
 
 #about h1 {
   text-align:center;
-  border-bottom:solid 1px black;
+  margin:0;
+}
+
+#about h4 {
+    border-bottom:solid 1px black;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+
 }
 /* How to Get rid of the Hamburger */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   header .menu-button {
     display: none;
   }
@@ -166,13 +183,14 @@ header {
   }
   .content {
     background-color: rgb(225, 211, 179);
-    width: 95%;
-    Margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
     position: inherit;
     height: 100%;
+    padding:30px;
   }
   .product {
-    width: 25%;
+    width: 50%;
     float: left;
     padding: 5px;
   }
@@ -182,7 +200,7 @@ header {
 }
 /* My mobile Layout!! */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   body, html, {
     margin: 0;
   }
@@ -217,7 +235,8 @@ header {
   }
   
   header{
-    position:static;}
+    position:static;
+  }
   
   
   .show-menu-button {
@@ -235,6 +254,14 @@ header {
   }
   .product img {
     width: 100%;
+  }
+
+  #about {
+    width:80%;
+  }
+
+  .footer {
+    width:95%;
   }
 }
 /* Hamburger Menu */
