@@ -26,6 +26,10 @@ header .logo {
   margin: 0 auto;
 }
 
+h2{
+  font-family: 'Slabo 27px', serif;
+}
+
 .display-menu {
   background-color: rgb(239, 231, 216);
 }
