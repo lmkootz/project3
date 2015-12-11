@@ -85,12 +85,23 @@ header {
 }
 
 .footer {
-  background-color: pink;
   width: 70%;
   margin: 0 auto;
   position: inherit;
   height: 100%;
   padding: 5px;
+}
+
+.footer p {
+  float:left;
+  display:block;
+}
+
+.footer img.socialbutton {
+  padding:2px;
+  width:40px;
+  float:right;
+  display:block;
 }
 
 .buy {
@@ -127,14 +138,32 @@ header {
 #about {
   background-color: rgb(247, 247, 247);
   padding: 10px;
-  width:100%;
+  width:70%;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+#index {
+  padding:30px;
+  background-color: rgb(247, 247, 247);
+  width:70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#index h1 {
+  text-align:center;
+  margin:0;
 }
 
 img.follow {
   display:block;
   margin:0 auto;
+}
+
+.text {
+  clear:left;
+  display:inline-block;
 }
 
 #about h1 {
@@ -143,7 +172,7 @@ img.follow {
 }
 
 #about h4 {
-    border-bottom:solid 1px black;
+    border-bottom:dashed 1px black;
     margin-bottom: 10px;
     line-height: 30px;
     text-align: center;
@@ -172,7 +201,7 @@ img.follow {
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    background: url("http://lmkootz.github.io/project2/img/logo.png");
+    background: url("img/logo.png");
     background-size: contain;
     margin-top: 10px;
     margin-bottom: 0;
@@ -182,7 +211,7 @@ img.follow {
     overflow: auto;
   }
   .content {
-    background-color: rgb(225, 211, 179);
+    background-color: rgb(247, 247, 247);
     width: 70%;
     margin: 0 auto;
     position: inherit;
@@ -197,6 +226,10 @@ img.follow {
   .product img {
     width: 100%;
   }
+p {
+     -webkit-column-count:2;
+}
+
 }
 /* My mobile Layout!! */
 
@@ -238,6 +271,9 @@ img.follow {
     position:static;
   }
   
+  #index {
+    width:95%;
+  }
   
   .show-menu-button {
     display: inline;
@@ -257,7 +293,18 @@ img.follow {
   }
 
   #about {
-    width:80%;
+    width:95%;
+    margin:0 auto;
+    padding:20px;
+  }
+
+  #about h4 {
+    padding:0;
+  }
+
+  img#kodak {
+    display:block;
+    position:static;
   }
 
   .footer {
