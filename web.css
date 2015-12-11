@@ -15,7 +15,7 @@ h1 {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("http://lmkootz.github.io/project2/img/honeymobilebg.png");
+  background: url("img/honeymobilebg.png");
 }
 /* Global Header things */
 
@@ -263,7 +263,7 @@ p {
     float: left;
     margin: 5px;
     margin-top: 30px;
-    background: url("http://lmkootz.github.io/project2/img/logo.png");
+    background: url("img/logo.png");
     background-size: cover;
   }
   
