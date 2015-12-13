@@ -91,6 +91,11 @@ header {
   margin-bottom:0;
 }
 
+.contact {
+  border-top: 1px dashed black;
+  padding-top: 5px;
+}
+
 .footer {
   width: 70%;
   margin: 0 auto;
